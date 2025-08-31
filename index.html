@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script src="./scripts/index.js" defer></script>
+    <title>FAQ Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="title-box">
+          <h1 class="title">Frequently asked questions</h1>
+        </div>
+        <h2 class="subtitle">Products, Website or Brand Design, we’ve got you covered!</h2>
+        <p class="description">Give us your questions, and we can help you achieve our goals together!</p>
+      </header>
+      <nav class="faq-tabs">
+        <button class="faq-tabs__item faq-tabs__item--active" type="button">Overview</button>
+        <button class="faq-tabs__item" type="button">Design System</button>
+        <button class="faq-tabs__item" type="button">Brand Design</button>
+        <button class="faq-tabs__item" type="button">Develop Website</button>
+      </nav>
+      <ul class="faq-list">
+        <li class="faq-list__item">
+          <button class="faq-question">
+            <h3 class="faq-question__title">How does it work?</h3>
+            <img class="accordion-arrow" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">...</div>
+        </li>
+        <li class="faq-list__item faq-list__item--open">
+          <button class="faq-question">
+            <h3 class="faq-question__title">Which platform do you support?</h3>
+            <img class="accordion-arrow accordion-arrow--active" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">
+            In a situational interview, the interviewer may ask how you overcame a difficult situation and what you learned from it. You can use your
+            response to demonstrate your flexibility and share an example of how you transformed a negative experience into a positive outcome
+          </div>
+        </li>
+        <li class="faq-list__item faq-list__item--open">
+          <button class="faq-question">
+            <h3 class="faq-question__title">How do I invite my teammates?</h3>
+            <img class="accordion-arrow accordion-arrow--active" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">
+            Collect the contact information of your teammates, including their email addresses or usernames on the platform you will use.
+          </div>
+        </li>
+        <li class="faq-list__item">
+          <button class="faq-question">
+            <h3 class="faq-question__title">Do you have annual plan?</h3>
+            <img class="accordion-arrow" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">...</div>
+        </li>
+        <li class="faq-list__item">
+          <button class="faq-question">
+            <h3 class="faq-question__title">How to create new workspace?</h3>
+            <img class="accordion-arrow" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">...</div>
+        </li>
+        <li class="faq-list__item">
+          <button class="faq-question">
+            <h3 class="faq-question__title">How do I set roles & permissions?</h3>
+            <img class="accordion-arrow" src="./img/Expand_down.svg" alt="" aria-hidden="true" />
+          </button>
+          <div class="faq-answer">...</div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
