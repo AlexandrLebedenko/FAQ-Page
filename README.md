@@ -8,8 +8,6 @@
 
 ## <a id="general-info">⭐ General info</a>
 
-# Flip The Coin
-
 A dark-themed, responsive FAQ section built with semantic **HTML**, **SCSS**, and **JavaScript**.
 
 ## <a id="Preview">🖼️ Preview</a>
